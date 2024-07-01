@@ -53,7 +53,7 @@ def parse_capacity_data(capacity_data):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python script.py /dev/sdX")
+        print("Usage: python3 wdscsi.py /dev/sdX")
         sys.exit(1)
 
     device_path = sys.argv[1]
